@@ -4,6 +4,12 @@ body {
     font-family: 'Clash Display', sans-serif;
 }
 
+.App{
+  
+}
+.h1-tag{
+  
+}
 .App h1{
   display: flex;
   align-items: center;
@@ -11,4 +17,21 @@ body {
   font-size: 50px;
   margin-bottom: 40px;
   color: #3145AA;
+}
+.btns{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  
+}
+button{
+  border-radius: 10px;
+}
+button a{
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
 }

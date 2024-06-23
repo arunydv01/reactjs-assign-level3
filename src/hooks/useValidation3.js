@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const useValidation = (formValues, surveyTopic) => {
+const useValidation3 = (formValues, surveyTopic) => {
   const [errors, setErrors] = useState({});
 
   const validateForm = () => {
@@ -61,4 +61,4 @@ const useValidation = (formValues, surveyTopic) => {
   };
 };
 
-export default useValidation;
+export default useValidation3;

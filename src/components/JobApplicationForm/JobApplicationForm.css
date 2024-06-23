@@ -1,9 +1,20 @@
 .form-container{
-    position: relative;
-    margin-top: 50px;
-}
+    display: flex;
+    flex-direction: column;
 
-.body{
+}
+.h1-tag{
+    margin-bottom: 40px;
+}
+.h1-tag h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #3145AA;
+}
+.body2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -11,7 +22,7 @@
     
 }
 
-.form-group{
+.form-group-2{
     
     margin-bottom: 50px;
     display: flex;
@@ -20,7 +31,7 @@
 
 }
 
-.form-group input{
+.form-group-2 input{
     width: 60%;
     font-size: 20px;
     font-weight: 400;
@@ -31,18 +42,8 @@
     border: 2px solid #5264AE;
     border-radius: 5px;
 }
-.form-group textarea{
-    width: 60%;
-    font-size: 20px;
-    font-weight: 400;
-    transition: all 0.5s ease;
-    position: relative;
-    background-color: transparent;
-    padding: 12px 12px;
-    border: 2px solid #5264AE;
-    border-radius: 5px;
-}
-.form-group label{
+
+.form-group-2 label{
     position: absolute;
     font-size: 20px;
     font-weight: 500;
@@ -51,7 +52,7 @@
     left: 10px;
 }
 
-.form-group select{
+.form-group-2 select{
     font-size: 20px;
     font-weight: 400;
     width: 80px;
@@ -60,43 +61,59 @@
     border-radius: 5px;
 }
 
-.form-group input:focus + label,
-.form-group input:valid + label,
-.form-group select:focus + label,
-.form-group select:valid + label {
+.form-group-2 input:focus + label,
+.form-group-2 input:valid + label,
+.form-group-2 select:focus + label,
+.form-group-2 select:valid + label {
     font-size: 25px;
     top: -30px;
     left: 0px;
 }
-
-.form-group textarea:focus + label,
-.form-group textarea:valid + label,
-.form-group select:focus + label,
-.form-group select:valid + label {
+.form-group-22{
+    
+}
+.form-group-22 label{
     font-size: 25px;
-    top: -30px;
-    left: 0px;
+    display: block;
+    margin: 5px 0;
+    font-weight: 500;
+}
+  
+.form-group-22 div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.form-group-22 input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+  
+.form-group-22 span{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
 }
 
-.form-group3{
+.form-group-21{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 40px;
    
 }
-.form-group3 select{
+.form-group-21 select{
     width: 40%;
     font-size: 20px;
-    border: 1px solid #5264AE;
-    border-radius: 5px;
 }
-.form-group3 label{
+.form-group-21 label{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 8px;
 
 }
+
 button {
     display: block;
     padding: 10px;

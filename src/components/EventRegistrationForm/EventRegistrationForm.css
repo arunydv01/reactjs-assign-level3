@@ -1,0 +1,105 @@
+.body-1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.body-h1{
+    margin-bottom: 40px;
+}
+.body-h1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #3145AA;
+}
+.div-form-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-group-1{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.form-group-1 label{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    transition: all 0.2s ease;
+    top: 5px;
+    left: 10px;
+}
+
+.form-group-1 label:focus{
+    outline: none;
+}
+
+.form-group-1 input:focus + label,
+.form-group-1 input:valid + label,
+.form-group-1 select:focus + label,
+.form-group-1 select:valid + label {
+    font-size: 24px;
+    top: -30px;
+    left: 0px;
+}
+
+.form-group-1 input{
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    padding: 16px 12px;
+    border: 2px solid #5264AE;
+    border-radius: 5px;
+}
+.form-group-1 select{
+    font-size: 20px;
+    font-weight: 400;
+    width: 80px;
+    padding: 5px 5px;
+    border: 2px solid #5264AE;
+    border-radius: 5px;
+}
+
+.form-group-11{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 40px;
+   
+}
+.form-group-11 select{
+    width: 40%;
+    font-size: 20px;
+    border: 1px solid #5264AE;
+    border-radius: 5px;
+}
+.form-group-11 label{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+button {
+    display: block;
+    padding: 10px;
+    background-color: #5264AE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #3145AA;
+  } 
+  
