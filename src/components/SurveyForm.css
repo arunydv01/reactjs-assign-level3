@@ -1,0 +1,114 @@
+.form-container{
+    position: relative;
+    margin-top: 50px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.form-group{
+    
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.form-group input{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    position: relative;
+    background-color: transparent;
+    padding: 12px 12px;
+    border: 2px solid #5264AE;
+    border-radius: 5px;
+}
+.form-group textarea{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    position: relative;
+    background-color: transparent;
+    padding: 12px 12px;
+    border: 2px solid #5264AE;
+    border-radius: 5px;
+}
+.form-group label{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    top: 5px;
+    left: 10px;
+}
+
+.form-group select{
+    font-size: 20px;
+    font-weight: 400;
+    width: 80px;
+    padding: 5px 5px;
+    border: 2px solid #5264AE;
+    border-radius: 5px;
+}
+
+.form-group input:focus + label,
+.form-group input:valid + label,
+.form-group select:focus + label,
+.form-group select:valid + label {
+    font-size: 25px;
+    top: -30px;
+    left: 0px;
+}
+
+.form-group textarea:focus + label,
+.form-group textarea:valid + label,
+.form-group select:focus + label,
+.form-group select:valid + label {
+    font-size: 25px;
+    top: -30px;
+    left: 0px;
+}
+
+.form-group3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 40px;
+   
+}
+.form-group3 select{
+    width: 40%;
+    font-size: 20px;
+    border: 1px solid #5264AE;
+    border-radius: 5px;
+}
+.form-group3 label{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+button {
+    display: block;
+    padding: 10px;
+    background-color: #5264AE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+  
+button:hover {
+    background-color: #3145AA;
+}
